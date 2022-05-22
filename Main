@@ -1,0 +1,10 @@
+getgenv().MainAccount = "urmainaccname"
+getgenv().FPS = 5
+getgenv().AutoRender = true
+getgenv().Alts = {
+    [1] = 0, --replace 0 whit ur alt id
+    [2] = 0,
+    [3] = 0, 
+}
+-- IGNORE --
+loadstring(game:HttpGet('https://raw.githubusercontent.com/6wvvc/Ducky-Alt-Control-Source/main/Ducky%20Alt%20Control%20Source', true))()
